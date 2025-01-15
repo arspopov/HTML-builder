@@ -28,7 +28,7 @@ async function showFilesInfo() {
       }
     }
   } catch (err) {
-    console.error('Ошибка при чтении папки или файла:', err);
+    console.error('Error when reading folder or file:', err);
   }
 }
 
